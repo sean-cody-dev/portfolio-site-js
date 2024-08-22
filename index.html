@@ -1,39 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animated Navigation</title>
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Menu Overlay -->
-  <div class="overlay overlay-slide-left" id="overlay">
-    <!-- Menu Items -->
-    <nav>
-      <ul id="nav-list"> 
-        <li id="nav-1" class="slide-out-1"><a href="#home">Home</a></li>
-        <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
-        <li id="nav-3" class="slide-out-3"><a href="#skills">Skills</a></li>
-        <li id="nav-4" class="slide-out-4"><a href="#projects">Projects</a></li>
-        <li id="nav-5" class="slide-out-5"><a href="#contact">Contact</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <title>Sean Cody | Web Developer</title>
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Menu Overlay -->
+    <div class="overlay overlay-slide-left" id="overlay">
+      <!-- Menu Items -->
+      <nav>
+        <ul id="nav-list">
+          <li id="nav-1" class="slide-out-1">
+            <a href="#featured-project">Featured Project</a>
+          </li>
+          <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
+          <li id="nav-3" class="slide-out-3">
+            <a href="#projects">Projects</a>
+          </li>
+          <li id="nav-4" class="slide-out-4"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Menu Bars -->
+    <div class="menu-bars" id="menu-bars">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <!-- Sections -->
+    <section class="section-light" id="featured-project">
+      <a class="logo" href="#featured-project">Sean Cody Design</a>
+      <div class="project-card">
+        <h2 class="project-title">React Tic-Tac-Toe</h2>
+        <a
+          class="img-link"
+          href="https://sean-cody-dev.github.io/tic-tac-toe-react/"
+          target="_blank"
+        >
+          <img src=/tic-tac-toe-react.png alt="" class="project-img"/>
+        </a>
+        <a
+          class="button-link"
+          href="https://sean-cody-dev.github.io/tic-tac-toe-react/"
+          target="_blank"
+        >
+          <button class="button-light">Visit Site</button>
+        </a>
+        <a
+          class="button-link"
+          href="https://github.com/sean-cody-dev/tic-tac-toe-react"
+          target="_blank"
+        >
+          <button class="button-light">Visit GitHub Repo</button>
+        </a>
+        <p class="project-description">Tic-Tac-Toe game built with React</p>
+      </div>
+    </section>
+    <section class="section-medium" id="about">
+      <h1>Learn More About Me</h1>
+      <p>
+        I’ve spent years diving deep into code, but it’s my experience as a
+        business owner that truly sets me apart. Running a successful ecommerce
+        store from the ground up has honed my ability to tackle challenges with
+        creativity, precision, and a relentless drive for results. This unique
+        blend of technical acumen and entrepreneurial spirit is what I bring to
+        every project I undertake.
+      </p>
+      <p>
+        I specialize in the MERN stack (MongoDB, Express, React, Node.js), which
+        allows me to build robust, full-stack applications that are both
+        scalable and efficient. At Graceful Glow Co., I’ve worn many
+        hats—website designer, logistics coordinator, customer relations
+        manager, and data analyst. Each role has refined my problem-solving
+        skills and my ability to adapt quickly in a fast-paced environment.
+        Whether it’s crafting a compelling email marketing campaign or
+        optimizing a Shopify store for peak performance, I’m driven by the
+        challenge of consistently delivering high-quality results while ensuring
+        a seamless user experience.
+      </p>
+      <p>
+        I’m excited to continue applying my full-stack development skills,
+        particularly in the MERN stack, paired with the strategic insights I’ve
+        gained from running my own business, to new opportunities and
+        challenges. I’m confident that my diverse background equips me to
+        contribute meaningfully to any team and project I’m a part of.
+      </p>
+      <a
+        href="https://docs.google.com/document/d/1YKg61alJ5AOlfp224uXiHT957IIcBczdPtSvh1ILlg0/edit?usp=sharing"
+        target="_blank"
+      >
+        <button class="button-light">View My Resume</button>
+      </a>
+    </section>
+    <section class="section-light" id="projects">
+      <div class="project-card">
+        <h2 class="project-title">React Tic-Tac-Toe</h2>
+        <a
+          class="img-link"
+          href="https://sean-cody-dev.github.io/tic-tac-toe-react/"
+          target="_blank"
+        >
+          <img src=/tic-tac-toe-react.png alt="" class="project-img"/>
+        </a>
+        <a
+          class="button-link"
+          href="https://sean-cody-dev.github.io/tic-tac-toe-react/"
+          target="_blank"
+        >
+          <button class="button-light">Visit Site</button>
+        </a>
+        <a
+          class="button-link"
+          href="https://github.com/sean-cody-dev/tic-tac-toe-react"
+          target="_blank"
+        >
+          <button class="button-light">Visit GitHub Repo</button>
+        </a>
+        <p class="project-description">Tic-Tac-Toe game built with React</p>
+      </div>
+      <div class="project-card">
+        <h2 class="project-title">Qwixx Clone</h2>
+        <a
+          class="img-link"
+          href="https://sean-cody-dev.github.io/qwixx-clone/"
+          target="_blank"
+        >
+          <img src=/qwixx-clone.png alt="" class="project-img"/>
+        </a>
+        <a
+          class="button-link"
+          href="https://sean-cody-dev.github.io/qwixx-clone/"
+          target="_blank"
+        >
+          <button class="button-light">Visit Site</button>
+        </a>
+        <a
+          class="button-link"
+          href="https://github.com/sean-cody-dev/qwixx-clone"
+          target="_blank"
+        >
+          <button class="button-light">Visit GitHub Repo</button>
+        </a>
+        <p class="project-description">Clone of popular card game Qwixx.</p>
+      </div>
+      <div class="project-card">
+        <h2 class="project-title">Form Validator</h2>
+        <a
+          class="img-link"
+          href="https://sean-cody-dev.github.io/form-validator/"
+          target="_blank"
+        >
+          <img src=/form-validator.png alt="" class="project-img"/>
+        </a>
+        <a
+          class="button-link"
+          href="https://sean-cody-dev.github.io/form-validator/"
+          target="_blank"
+        >
+          <button class="button-light">Visit Site</button>
+        </a>
+        <a
+          class="button-link"
+          href="https://github.com/sean-cody-dev/form-validator"
+          target="_blank"
+        >
+          <button class="button-light">Visit GitHub Repo</button>
+        </a>
+        <p class="project-description">Clone of popular card game Qwixx.</p>
+      </div>
+      <div class="project-card">
+        <h2 class="project-title">Quote Generator</h2>
+        <a
+          class="img-link"
+          href="https://sean-cody-dev.github.io/quote-generator/"
+          target="_blank"
+        >
+          <img src=/quote-generator.png alt="" class="project-img"/>
+        </a>
+        <a
+          class="button-link"
+          href="https://sean-cody-dev.github.io/quote-generator/"
+          target="_blank"
+        >
+          <button class="button-light">Visit Site</button>
+        </a>
+        <a
+          class="button-link"
+          href="https://github.com/sean-cody-dev/quote-generator"
+          target="_blank"
+        >
+          <button class="button-light">Visit GitHub Repo</button>
+        </a>
+        <p class="project-description">Random quote generator using API fetch, featuring light and dark mode toggle</p>
+      </div>
+      <div class="project-card">
+        <h2 class="project-title">Infinite Scroll</h2>
+        <a
+          class="img-link"
+          href="https://sean-cody-dev.github.io/infinite-scroll/"
+          target="_blank"
+        >
+          <img src=/infinite-scroll.png alt="" class="project-img"/>
+        </a>
+        <a
+          class="button-link"
+          href="https://sean-cody-dev.github.io/infinite-scroll/"
+          target="_blank"
+        >
+          <button class="button-light">Visit Site</button>
+        </a>
+        <a
+          class="button-link"
+          href="https://github.com/sean-cody-dev/infinite-scroll"
+          target="_blank"
+        >
+          <button class="button-light">Visit GitHub Repo</button>
+        </a>
+        <p class="project-description">Infinite image scroll using Unsplash API</p>
+      </div>
+      <div class="project-card">
+        <h2 class="project-title">Joke Teller</h2>
+        <a
+          class="img-link"
+          href="https://sean-cody-dev.github.io/joke-teller/"
+          target="_blank"
+        >
+          <img src=/joke-teller.png alt="" class="project-img"/>
+        </a>
+        <a
+          class="button-link"
+          href="https://sean-cody-dev.github.io/joke-teller/"
+          target="_blank"
+        >
+          <button class="button-light">Visit Site</button>
+        </a>
+        <a
+          class="button-link"
+          href="https://github.com/sean-cody-dev/joke-teller"
+          target="_blank"
+        >
+          <button class="button-light">Visit GitHub Repo</button>
+        </a>
+        <p class="project-description">Random joke teller using Joke API and VoiceRSS API</p>
+      </div>
+
+    </section>
+    <section class="section-small section-dark" id="contact">
+      <ul>
+        <li><a href="https://github.com/sean-cody-dev" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/seandcody/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="mailto:sean.codyfamily@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
       </ul>
-    </nav>
-  </div>
-  <!-- Menu Bars -->
-  <div class="menu-bars" id="menu-bars">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-  </div>
-  <!-- Sections -->
-  <section id="home"><a href="https://jacinto.design" target="_blank">Sean Cody Design</a></section>
-  <section id="about"><h1>Learn More About Me</h1></section>
-  <section id="skills"><h1>These Are My Strengths</h1></section>
-  <section id="projects"><h1>These Are My Results</h1></section>
-  <section id="contact"><h1>Available Anytime</h1></section>
-  <!-- Script -->
-  <script src="script.js"></script>
-</body>
+      </section>
+      <!-- Script -->
+    <script src="script.js"></script>
+  </body>
 </html>
